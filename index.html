@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+  <head>
+    <meta charset="utf-8">
+    <title>ENHYPEN</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <style>
+      /* Font Styling */
+      .special {
+        font-family: "Mona Sans", serif;
+      }
+      h1 {
+        font-family: "Mona Sans", serif;
+        color: black;
+      }
+      body{
+        font-family: "Open Sans", sans-serif;
+        color: black;
+      }
+      
+      /* section */
+      #section {
+        text-align: center;
+        padding: 50px 20px;
+        background-image: url(image.png);
+      }
+
+      #section img {
+        margin-bottom: 20px;
+      }
+
+      #block {
+        background-color: #B7B7B7;
+        padding: 20px 30px;
+        max-width: 600px;
+        margin: 0 auto;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      #block h1 {
+        font-size: 24px;
+        margin-bottom: 15px;
+      }
+
+      #block p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+      }
+
+      #block a {
+        display: inline-block;
+        text-decoration: none;
+        background-color: black;
+        color: white;
+        padding: 10px 20px;
+        font-size: 16px;
+        margin-top: 10px;
+      }
+
+
+      /* Navbar Styling */
+      #navbar {
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center;
+        background-color: #B7B7B7;
+        padding: 10px 25px;
+      }
+
+      #navbar h1 {
+        margin: 0; 
+        font-size: 24px; 
+        color: #333;
+      }
+
+      #navbar ul {
+        list-style-type: none; 
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 15px;
+      }
+
+      #navbar ul li {
+        display: inline; 
+      }
+
+      #navbar ul li a {
+        text-decoration: none;
+        color: #333;
+        font-size: 17px;
+        padding: 8px 12px; 
+      }
+
+      #navbar ul li a:hover {
+        background-color: #949494;
+      }
+
+      #navbar ul li a.active {
+        background-color: #656565;
+        color: white;
+      }
+      
+      /* hero image */
+      #hero {
+        background-color: black;
+        text-align: center;
+      }
+      #hero img {
+        width: 50%;
+      }
+      #hero h1 {
+        position: absolute;
+        top: 150px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        background-color: black;
+        padding: 5px 15px;
+      }
+    
+      
+    </style>
+  </head>
+  <body>
+    <div id="navbar">
+      <h1 class="special">ENHYPEN</h1>
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Members</a></li>
+        <li><a href="#">Connect</a></li>
+      </ul>
+    </div>
+    
+    <div id="hero">
+      <img src="groupphoto1.png" alt="Enhypen">
+      <h1>ENHYPEN</h1>
+    </div>
+    
+    <div id="section">
+      <div id="block">
+        <h1>Who is ENHYPEN?</h1>
+        <p>Enhypen is a 7-member K-pop group formed through survival reality show I-LAND in 2020. With their powerful performances and captivating storytelling, they’ve become a global sensation, connecting with fans around the world.</p>
+        <a href="#">Learn More</a>
+      </div>
+    </div>
+    
+  </body>
+</html>
