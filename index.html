@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Acme&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <style>
-      /* Font Styling */
+      /* general styling */
       .special {
         font-family: "Mona Sans", serif;
       }
@@ -18,6 +18,58 @@
       body{
         font-family: "Open Sans", sans-serif;
         color: black;
+      }
+
+      /* members */
+      #members #images {
+        display: flex;
+        overflow-x: auto;
+        gap: 10px;
+        padding: 20px;
+        background-color: #B7B7B7;
+        justify-content: center;
+      }
+      #members {
+        text-align: center;
+      }
+      #members a {
+        display: inline-block;
+        text-decoration: none;
+        background-color: black;
+        color: white;
+        padding: 10px 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      #members a:hover {
+        background-color: #949494;
+      }
+      
+      /* connect */
+      #connect {
+        text-align: center;
+        padding: 50px 20px;
+        background-image: url(groupphoto2.png);
+        background-repeat: no-repeat;
+        background-position: 50% 0%;
+      }
+      
+      #block1 {
+        background-color: rgba(183, 183, 183, 0.6);
+        padding: 20px 30px;
+        max-width: 600px;
+        margin: auto;
+      }
+      
+      #block1 a {
+        display: inline-block;
+        text-decoration: none;
+        background-color: black;
+        color: white;
+        padding: 10px 20px;
+      }
+      #block1 a:hover {
+        background-color: #949494;
       }
       
       /* section */
@@ -50,35 +102,7 @@
         background-color: #949494;
       }
       
-      /* connect */
-      #connect {
-        text-align: center;
-        padding: 50px 20px;
-        background-image: url(groupphoto2.png);
-        background-repeat: no-repeat;
-        background-position: 50% 0%;
-      }
-      
-      #block1 {
-        background-color: rgba(183, 183, 183, 0.6);
-        padding: 20px 30px;
-        max-width: 600px;
-        margin: auto;
-      }
-      
-      #block1 a {
-        display: inline-block;
-        text-decoration: none;
-        background-color: black;
-        color: white;
-        padding: 10px 20px;
-      }
-      #block1 a:hover {
-        background-color: #949494;
-      }
-      
 
-      
       /* Navbar Styling */
       #navbar {
         display: flex; 
@@ -142,6 +166,8 @@
         background-color: black;
         padding: 10px 20px;
       }
+      
+      
 
     
       
@@ -171,14 +197,17 @@
       </div>
     </div>
     
-    <div class="members">
-      <img src="jungwon.png" alt="Jungwon"> 
-      <img src="heeseung.png" alt="Heeseung">
-      <img src="jay.png" alt="Jay">
-      <img src="jake.png" alt="Jake">
-      <img src="sunghoon.png" alt="Sunghoon">
-      <img src="sunoo.png" alt="Sunoo">
-      <img src="niki.png" alt="Ni-ki">
+    <div id="members">
+      <div id="images">
+        <img src="jungwon.png" alt="Jungwon"> 
+        <img src="heeseung.png" alt="Heeseung">
+        <img src="jay.png" alt="Jay">
+        <img src="jake.png" alt="Jake">
+        <img src="sunghoon.png" alt="Sunghoon">
+        <img src="sunoo.png" alt="Sunoo">
+        <img src="niki.png" alt="Ni-ki">
+      </div>
+      <a href="#">View Members</a>
     </div>
 
     <div id="connect">
