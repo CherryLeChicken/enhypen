@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+  <head>
+    <meta charset="utf-8">
+    <title>Connect</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <style>
+        /* general styling */
+        h1 {
+            font-family: "Mona Sans", serif;
+            color: black;
+        }
+        body{
+            font-family: "Open Sans", sans-serif;
+            color: black;
+        }
+
+        
+        
+        /* connect */
+        #connect {
+            text-align: center;
+            padding: 50px 20px;
+            background-image: url(groupphoto2.png);
+            background-repeat: no-repeat;
+            background-position: 50% 0%;
+        }
+        
+        #block1 {
+            background-color: rgba(183, 183, 183, 0.8);
+            padding: 20px 30px;
+            max-width: 600px;
+            margin: auto;
+        }
+        
+        #block1 a {
+            display: inline-block;
+            text-decoration: none;
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+        }
+        #block1 a:hover {
+            background-color: #949494;
+        }
+        
+        /* section */
+        #section {
+            text-align: center;
+            padding: 50px 20px;
+            background-image: url(image.png);
+        }
+
+
+        #block {
+            background-color: #B7B7B7;
+            padding: 20px 30px;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        #block a {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+        }
+
+        #block a:hover {
+            background-color: #949494;
+        }
+
+        .icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .icons img {
+            width: 50px;
+            height: 50px;
+            padding: 5px;
+        }
+        
+
+        /* Navbar Styling */
+        #navbar {
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center;
+            background-color: #B7B7B7;
+            padding: 10px 25px;
+        }
+
+        #navbar h1 {
+            margin: 0; 
+            font-size: 24px; 
+            color: #333;
+        }
+
+        #navbar ul {
+            list-style-type: none; 
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 15px;
+        }
+
+        #navbar ul li {
+            display: inline; 
+        }
+
+        #navbar ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 17px;
+            padding: 8px 12px; 
+        }
+
+        #navbar ul li a:hover {
+            background-color: #949494;
+        }
+
+        #navbar ul li a.active {
+            background-color: #656565;
+            color: white;
+        }
+        
+        /* hero image */
+        /*
+            Code referenced from: https://www.w3schools.com/howto/howto_css_hero_image.asp
+            Author: w3schools
+            Name: How to CSS Hero Image
+            Description: Hero image with text
+            Date retrieved: 2024/12/09
+            */
+        #hero {
+            background-color: black;
+            position: relative;
+            text-align: center;
+        }
+
+        #hero img {
+            width: 50%;
+        }
+
+        #hero h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            background-color: black;
+            padding: 10px 20px;
+        }
+
+
+    
+      
+    </style>
+  </head>
+  <body>
+    <div id="navbar">
+      <h1>ENHYPEN</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="members.html">Members</a></li>
+        <li><a href="connect.html" class="active">Connect</a></li>
+      </ul>
+    </div>
+    
+    <div id="hero">
+      <img src="groupphoto1.png" alt="Enhypen">
+      <h1>CONNECT</h1>
+    </div>
+    
+    <div id="section">
+      <div id="block">
+        <h1>Connect with Enhypen</h1>
+        <p>Connect with ENHYPEN through their official social media accounts. Follow for updates, behind-the-scenes content, and a closer look at their journey!</p>
+        <div class="icons">
+            <a href="https://twitter.com/ENHYPEN" target="_blank">
+                <img src="x.png" alt="Twitter">
+            </a>
+            <a href="https://www.instagram.com/enhypen/" target="_blank">
+                <img src="instagram.png" alt="Instagram">
+            </a>
+            <a href="https://www.youtube.com/c/ENHYPEN" target="_blank">
+                <img src="youtube.png" alt="YouTube">
+            </a>
+            <a href="https://www.tiktok.com/@enhypen" target="_blank">
+                <img src="tiktok.png" alt="TikTok">
+            </a>
+            <a href="https://weverse.io/enhypen" target="_blank">
+                <img src="weverse.png" alt="Weverse">
+            </a>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div id="connect">
+      <div id="block1">
+        <h1>About the Developer</h1>
+        <p>Hello! I am Cherry, and I made this website because Enhypen is my favourite music group. For website inquiries, please contact me!</p>
+        <a href="mailto:c5ke@uwaterloo.ca">Contact</a>
+      </div>
+    </div>
+  </body>
+</html>
