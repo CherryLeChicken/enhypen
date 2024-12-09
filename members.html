@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+  <head>
+    <meta charset="utf-8">
+    <title>Members</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <style>
+        /* general styling */
+        h1 {
+        font-family: "Mona Sans", serif;
+        color: black;
+        }
+        body{
+        font-family: "Open Sans", sans-serif;
+        color: black;
+        }
+
+        
+        /* section */
+        #members {
+        text-align: center;
+        padding: 50px 20px;
+        background-image: url(image.png);
+        }
+
+        .block {
+        background-color: #B7B7B7;
+        padding: 20px 30px;
+        max-width: 600px;
+        margin: auto;
+        }
+
+        #members {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            background-color: white;
+        }
+
+
+        .block {
+            width: 300px;
+            background-color: white;
+            border: 2px solid #B7B7B7;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .block img {
+            width: 100px;
+            border: 2px solid #B7B7B7;
+            margin-bottom: 15px;
+        }
+
+        .block h1 {
+            color: black;
+            margin-bottom: 10px;
+        }
+
+        .block ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: left;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .block ul li {
+            margin-bottom: 5px;
+        }
+
+        .block ul li:last-child {
+            color: #000000;
+            font-style: italic;
+        }
+        
+
+        /* Navbar Styling */
+        #navbar {
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center;
+            background-color: #B7B7B7;
+            padding: 10px 25px;
+        }
+
+        #navbar h1 {
+            margin: 0; 
+            font-size: 24px; 
+            color: #333;
+        }
+
+        #navbar ul {
+            list-style-type: none; 
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 15px;
+        }
+
+        #navbar ul li {
+            display: inline; 
+        }
+
+        #navbar ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 17px;
+            padding: 8px 12px; 
+        }
+
+        #navbar ul li a:hover {
+            background-color: #949494;
+        }
+
+        #navbar ul li a.active {
+            background-color: #656565;
+            color: white;
+        }
+        
+        /* hero image */
+        #hero {
+            background-color: black;
+            position: relative;
+            text-align: center;
+        }
+
+        #hero img {
+            width: 50%;
+        }
+
+        #hero h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            background-color: black;
+            padding: 10px 20px;
+        }
+        
+
+    </style>
+  </head>
+  <body>
+    <div id="navbar">
+      <h1>ENHYPEN</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="members.html" class="active">Members</a></li>
+        <li><a href="connect.html">Connect</a></li>
+      </ul>
+    </div>
+    
+    <div id="hero">
+      <img src="groupphoto1.png" alt="Enhypen">
+      <h1>MEMBERS</h1>
+    </div>
+    
+    <section id="members">
+        <div class="block">
+            <img src="jungwon.png" alt="jungwon">
+            <h1>Jungwon</h1>
+            <ul>
+                <li>Birth Name: Yang Jung-won (양정원)</li>
+                <li>Stage Name: Jungwon (정원)</li>
+                <li>Birthdate: February 9th, 2004</li>
+                <li>Nationality: Korean</li>
+                <li>Fun Fact: Jungwon ranked first on I-LAND.</li>
+            </ul>
+          </div>
+        <div class="block">
+            <img src="heeseung.png" alt="heeseung">
+            <h1>Heeseung</h1>
+            <ul>
+                <li>Birth Name: Lee Hee-seung (이희승)</li>
+                <li>Stage Name: Heeseung (희승)</li>
+                <li>Birthdate: October 15th, 2001</li>
+                <li>Nationality: Korean</li>
+                <li>Fun Fact: Heeseung has perfect pitch.</li>
+            </ul>
+        </div>
+        <div class="block">
+            <img src="jay.png" alt="jay">
+            <h1>Jay</h1>
+            <ul>
+                <li>Birth Name: Park Jong-seong (박종성)</li>
+                <li>Stage Name: Jay (제이)</li>
+                <li>Birthdate: April 20th, 2002</li>
+                <li>Nationality: Korean-American</li>
+                <li>Fun Fact: Jay learned Japanese by watching anime.</li>
+            </ul>
+        </div>
+        <div class="block">
+            <img src="jake.png" alt="jake">
+            <h1>Jake</h1>
+            <ul>
+                <li>Birth Name: Sim Jae-yun (심재윤)</li>
+                <li>Stage Name: Jake (제이크)</li>
+                <li>Birthdate: November 15th, 2002</li>
+                <li>Nationality: Korean-Australian</li>
+                <li>Fun Fact: Jake had a short training period of only 9 months.</li>
+            </ul>
+        </div>
+        <div class="block">
+            <img src="sunghoon.png" alt="sunghoon">
+            <h1>Sunghoon</h1>
+            <ul>
+                <li>Birth Name: Park Sung-hoon (박성훈)</li>
+                <li>Stage Name: Sunghoon (성훈)</li>
+                <li>Birthdate: December 8th, 2002</li>
+                <li>Nationality: Korean</li>
+                <li>Fun Fact: Sunghoon used to figure skate competitively.</li>
+            </ul>
+        </div>
+        <div class="block">
+            <img src="sunoo.png" alt="sunoo">
+            <h1>Sunoo</h1>
+            <ul>
+                <li>Birth Name: Kim Sun-oo (김선우)</li>
+                <li>Stage Name: Sunoo (선우)</li>
+                <li>Birthdate: June 24th, 2003</li>
+                <li>Nationality: Korean</li>
+                <li>Fun Fact: Sunoo takes almost 50 selfies per day.</li>
+            </ul>
+        </div>
+        <div class="block">
+            <img src="niki.png" alt="niki">
+            <h1>Ni-ki</h1>
+            <ul>
+                <li>Birth Name: Nishimura Riki (西村 力)</li>
+                <li>Stage Name: Ni-ki (니키)</li>
+                <li>Birthdate: December 9th, 2005</li>
+                <li>Nationality: Japanese</li>
+                <li>Fun Fact: Ni-ki can memorize choreography in just 10 minutes.</li>
+            </ul>
+        </div>
+    </section>
+    
+
+    
+  
+  </body>
+</html>
